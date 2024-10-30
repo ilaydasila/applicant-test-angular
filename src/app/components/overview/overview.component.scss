@@ -1,0 +1,29 @@
+@import '../../../styles.scss';
+
+.overview-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.item-container {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-state {
+    align-self: end;
+    margin: 10px;
+}
+
+.overview-icon {
+    align-self: center;
+    font-size: 80px;
+}
+
+.item-section {
+    align-self: center;
+    font-size: 26px;
+}

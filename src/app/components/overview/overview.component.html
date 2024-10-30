@@ -1,0 +1,9 @@
+<div class="overview-container">
+    <ng-container *ngFor="let item of data">
+        <div class="item-container" [ngClass]="getStateClass(item.state)">
+            <div class="item-state material-icons first-icon">{{item.state}}</div>
+            <div class="overview-icon material-icons">{{getOverviewIconClass(item.section)}}</div>
+            <div class="item-section">{{item.section}}</div>
+        </div>
+    </ng-container>
+</div>

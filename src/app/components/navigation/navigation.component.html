@@ -1,0 +1,9 @@
+<span class="green-line"></span>
+<div class="navigation-container">
+    <ng-container *ngFor="let item of data">
+        <div class="item-container" [ngClass]="getStateClass(item.state)">
+            <div class="item-section">{{item.section}}</div>
+            <div class="item-state material-icons first-icon">{{item.state}}</div>
+        </div>
+    </ng-container>
+</div>

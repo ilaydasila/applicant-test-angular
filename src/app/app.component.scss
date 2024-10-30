@@ -1,0 +1,10 @@
+.app-container {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    height: 100vh;
+}
+  
+  app-overview {
+    margin: auto;
+    width: 100%;
+}

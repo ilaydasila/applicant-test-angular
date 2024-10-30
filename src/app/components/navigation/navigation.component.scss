@@ -1,0 +1,32 @@
+@import '../../../styles.scss';
+
+.navigation-container {
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.green-line{
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #3e9e93;
+}
+
+.item-container {
+    display: flex;
+    min-width: 200px;
+}
+
+.item-section {
+    margin: 30px 60px;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.item-state {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 5px;
+}
