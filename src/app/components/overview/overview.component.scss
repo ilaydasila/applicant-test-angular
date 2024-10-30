@@ -27,3 +27,11 @@
     align-self: center;
     font-size: 26px;
 }
+
+.progress-line {
+    position: absolute;
+    width: 80%;
+    height: 5px;
+    background-color: green;
+    z-index: -1;
+}
