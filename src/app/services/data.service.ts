@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Data, State } from '../models/data';
 
+//Instead of consumed by two components, 
+//there could be one container component to handle data and send with data bindings to child components(overview,navigator)
 @Injectable({
   providedIn: 'root'
 })
